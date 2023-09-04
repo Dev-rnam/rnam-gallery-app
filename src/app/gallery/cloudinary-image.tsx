@@ -7,6 +7,7 @@ import { setAsFavoriteAction } from './actions';
 import { useState, useTransition } from 'react';
 import { SearchResult } from './page';
 import { FullHeart } from '@/components/icons/full-heart';
+import { ImageMenu } from '@/components/image-menu';
 
 export function CloudinaryImage(
     props: {
@@ -44,6 +45,7 @@ export function CloudinaryImage(
                     className="absolute top-2 left-2 hover:text-red-500 cursor-pointer"
                 />
             )}
+            <ImageMenu image={imageData} />
         </div>
     )
 }

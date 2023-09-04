@@ -18,7 +18,7 @@ export default function GalleryGrid({ images }: { images: SearchResult[] }) {
             alt="an image of something"
           />
         );
-      }}
+      }} 
     />
   );
 }

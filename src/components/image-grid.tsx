@@ -1,4 +1,3 @@
-"use client";
 
 import { SearchResult } from "@/app/gallery/page";
 import { ReactNode } from "react";
